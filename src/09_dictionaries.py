@@ -49,3 +49,6 @@ waypoints[0]['name'] = 'not a place'
 print(waypoints)
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
+for x in waypoints:
+    for a in x:
+        print(x[a])
